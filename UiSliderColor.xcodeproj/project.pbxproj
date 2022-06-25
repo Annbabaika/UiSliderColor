@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		1597F69C2865EDA500D0EBA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1597F69B2865EDA500D0EBA1 /* AppDelegate.swift */; };
 		1597F69E2865EDA500D0EBA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1597F69D2865EDA500D0EBA1 /* SceneDelegate.swift */; };
-		1597F6A02865EDA500D0EBA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1597F69F2865EDA500D0EBA1 /* ViewController.swift */; };
-		1597F6A32865EDA500D0EBA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1597F6A12865EDA500D0EBA1 /* Main.storyboard */; };
 		1597F6A52865EDA600D0EBA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1597F6A42865EDA600D0EBA1 /* Assets.xcassets */; };
 		1597F6A82865EDA600D0EBA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1597F6A62865EDA600D0EBA1 /* LaunchScreen.storyboard */; };
+		1597F6AF2866236000D0EBA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1597F6A12865EDA500D0EBA1 /* Main.storyboard */; };
+		1597F6B0286623E000D0EBA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1597F69F2865EDA500D0EBA1 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,9 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1597F6AF2866236000D0EBA1 /* Main.storyboard in Resources */,
 				1597F6A82865EDA600D0EBA1 /* LaunchScreen.storyboard in Resources */,
 				1597F6A52865EDA600D0EBA1 /* Assets.xcassets in Resources */,
-				1597F6A32865EDA500D0EBA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1597F6A02865EDA500D0EBA1 /* ViewController.swift in Sources */,
+				1597F6B0286623E000D0EBA1 /* ViewController.swift in Sources */,
 				1597F69C2865EDA500D0EBA1 /* AppDelegate.swift in Sources */,
 				1597F69E2865EDA500D0EBA1 /* SceneDelegate.swift in Sources */,
 			);
@@ -292,6 +292,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -303,7 +304,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,6 +320,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,7 +332,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
